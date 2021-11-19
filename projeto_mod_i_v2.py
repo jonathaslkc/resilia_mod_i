@@ -3,7 +3,7 @@ import sys
 
 
 def digit(txt, seg=0.2):
-    # Funcao para o programa 'digitar' letra por letra de um texto informado (txt) nos segundos desejado (seg).
+    #  Funcao para o programa 'digitar' letra por letra de um texto informado (txt) nos segundos desejado (seg).
     for letras in txt:
         print(letras, end='')
         sleep(seg)
